@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@mipmap/home"
+            android:title="@string/home_label" />
+        <item
+            android:id="@+id/about_us"
+            android:icon="@mipmap/about_us"
+            android:title="@string/about_us_label" />
+        <item
+            android:id="@+id/portfolio"
+            android:icon="@mipmap/portfolio"
+            android:title="@string/portfolio_label" />
+        <item
+            android:id="@+id/contacts"
+            android:icon="@mipmap/contacts"
+            android:title="@string/contacts_label" />
+    </group>
+
+    <item android:title="@string/second_category">
+        <menu>
+            <item
+                android:id="@+id/nav_1"
+                android:icon="@mipmap/settings"
+                android:title="@string/settings_label" />
+
+            <item
+                android:id="@+id/nav_4"
+                android:icon="@mipmap/credits"
+                android:title="@string/credits_label" />
+        </menu>
+    </item>
+
+
+
+
+</menu>
